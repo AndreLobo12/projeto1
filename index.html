@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">StrideFlex Sneakers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Nossos Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Quem Somos</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosso Time</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Carrinho
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header-->
+
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> <!-- Novo indicador -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/caurosel1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Inspiração Poderosa</h5>
+                        <p>Inspiração que move montanhas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/caurosel2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Beleza Cativante</h5>
+                        <p>Beleza que encanta os olhos e a alma.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/caurosel37.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Inovação Transformadora</h5>
+                        <p>Inovação que transforma o mundo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/caurosel4.png" class="d-block w-100" alt="..."> <!-- Nova imagem -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Paixão Impulsionadora</h5> <!-- Novo título -->
+                        <p>Paixão que impulsiona grandes conquistas.</p> <!-- Novo conteúdo -->
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="bg-custom py-5 product-section">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="images/tenis1.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="images/tenis2.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="quem-somos" class="bg-custom py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h2 class="display-4 fw-bolder">Quem Somos</h2>
+                  <p class="lead">Somos uma empresa dedicada a fornecer os melhores calçados para nossos clientes. Combinamos estilo, qualidade e conforto em todos os nossos produtos. Nossa missão é oferecer uma experiência excepcional aos nossos clientes, proporcionando calçados duráveis e elegantes.</p>
+                </div>
+                <div class="col-lg-6">
+                  <div class="image-container shadow">
+                    <img src="images/quemSomos.jpg" class="img-fluid img-rounded img-border" alt="Equipe">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section id="nosso-time" class="bg-custom py-5 team-section">
+            <div class="container">
+              <h2 class="text-center mb-4">Nosso Time Incrível</h2>
+              <p class="text-center mb-5">Conheça as pessoas talentosas que fazem parte da nossa equipe.</p>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card border-0 bg-transparent">
+                    <div class="custom-rounded-circle">
+                      <img src="images/zachary.png" class="card-img-top employee-image rounded-circle shadow-lg" alt="Foto de Zachary Rogers">
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <h5 class="card-title text-center">Zachary Rogers</h5>
+                      <p class="card-text text-center">Gerente de Marketing Digital</p>
+                      <div class="social-media-buttons d-flex justify-content-center">
+                        <a href="https://www.instagram.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-instagram custom-icon"></i></a>
+                        <a href="https://www.linkedin.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-linkedin custom-icon"></i></a>
+                        <a href="https://www.twitter.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-twitter custom-icon"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card border-0 bg-transparent">
+                    <div class="custom-rounded-circle">
+                      <img src="images/diamond.png" class="card-img-top employee-image rounded-circle shadow-lg" alt="Foto de Diamond Fowler">
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <h5 class="card-title text-center">Diamond Fowler</h5>
+                      <p class="card-text text-center">Gerente de Vendas</p>
+                      <div class="social-media-buttons d-flex justify-content-center">
+                        <a href="https://www.instagram.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-instagram custom-icon"></i></a>
+                        <a href="https://www.linkedin.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-linkedin custom-icon"></i></a>
+                        <a href="https://www.twitter.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-twitter custom-icon"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card border-0 bg-transparent">
+                    <div class="custom-rounded-circle">
+                      <img src="images/jason.png" class="card-img-top employee-image rounded-circle shadow-lg" alt="Foto de Jason George">
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <h5 class="card-title text-center">Jason George</h5>
+                      <p class="card-text text-center">Gerente Financeiro</p>
+                      <div class="social-media-buttons d-flex justify-content-center">
+                        <a href="https://www.instagram.com" class="btn btn-custom  me-2 social-media-icon"><i class="bi bi-instagram custom-icon"></i></a>
+                        <a href="https://www.linkedin.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-linkedin custom-icon"></i></a>
+                        <a href="https://www.twitter.com" class="btn btn-custom me-2 social-media-icon"><i class="bi bi-twitter custom-icon"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+        <!-- Section-->
+
+
+        
+        <footer class="bg-warning text-black">
+            <div class="container p-5">
+              <div class="row">
+                <div class="col-md-3">
+                  <h5>Explore a StrideFlex Sneakers</h5>
+                  <ul class="list-unstyled footer-links">
+                    <li><a href="#">Sobre a StrideFlex Sneakers</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Investidores</a></li>
+                    <li><a href="#">Responsabilidade Social</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Influencer, Parcerias, Patrocínio</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5>Ajuda</h5>
+                  <ul class="list-unstyled footer-links">
+                    <li><a href="#">Dúvidas Gerais</a></li>
+                    <li><a href="#">Encontre seu Tamanho</a></li>
+                    <li><a href="#">Entregas</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Pagamentos</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Corporativo</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5>Políticas</h5>
+                  <ul class="list-unstyled footer-links">
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                    <li><a href="#">Acessibilidade</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5>Nossas Redes Sociais</h5>
+                  <ul class="list-inline footer-links">
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-youtube"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-12">
+                  <h5>Onde nós estamos</h5>
+                </div>
+                <div class="col-md-12">
+                  <!-- Integração com o Google Maps -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.2468569438706!2d-46.35604446100853!3d-22.867337629201582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceadf1862d0d17%3A0x9beb8d9191f8b8df!2sSequoia%20Logistica!5e0!3m2!1spt-BR!2sbr!4v1685212878487!5m2!1spt-BR!2sbr" width="100%" height="300px" frameborder="0" aria-hidden="false" tabindex="0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-6">
+                  <p>&copy; 2023 StrideFlex Sneakers. Todos os direitos reservados. StrideFlex Comércio de Produtos Esportivos Ltda - CNPJ: 12.544.520/0045-60 Rodovia Fernão Dias, S/N Km 947.5 - Galpão Modulo 3640 - CEP 37640-903 - Extrema - MG</p>
+                </div>
+                <div class="col-md-6 text-end">
+                  <ul class="list-inline footer-links">
+                    <li class="list-inline-item"><a href="#">Termos de Uso</a></li>
+                    <li class="list-inline-item"><a href="#">Política de Privacidade</a></li>
+                    <li class="list-inline-item"><a href="#">Política de Cookies</a></li>
+                    <li class="list-inline-item"><a href="#">Acessibilidade</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
+          
+          
+          
+          
+          
+          
+                    
+          
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- Adicione o JavaScript do Glide.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+        // Inicialize o Glide.js
+        new Glide('.glide', {
+            type: 'carousel',
+            perView: 4,
+            focusAt: 'center',
+            breakpoints: {
+                1200: {
+                    perView: 3
+                },
+                768: {
+                    perView: 2
+                }
+            }
+        }).mount();
+    </script>
+    </body>
+</html>
